@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(203, 214, 224);
+}
+
+#header{
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+
+#block1{
+    background-color: cornflowerblue;
+    justify-content: space-between;
+    display: flex;
+    margin: 20px;
+}
+
+#block2{
+    background-color: hotpink;
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+}
+
+#riveter{
+    margin-right: 500px;
+
+}
+
+#block3{
+    background-color: ivory;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
