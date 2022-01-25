@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-items:flex-start;
+}
+
+#one{
+    width: 300px;
+    height: 500px;
+    background-color: navy;
+
+}
+
+#two{
+    width: 300px;
+    height: 500px;
+    background-color: white;
+
+
+}
+
+#three{
+    width: 300px;
+    height: 500px;
+    background-color: red;
+
+}
