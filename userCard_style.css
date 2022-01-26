@@ -1,0 +1,69 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: cursive;
+}
+
+#userImage{
+    width: 85px;
+    height: 90px;
+    position: absolute;
+    top: 220px;
+    padding-left: 10px;
+}
+
+
+h1{
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#map{
+    width:10px;
+    height:17px;
+    padding: 10px;
+}
+
+#p1{
+    padding-top:6px;
+}
+
+#p2{
+    padding-left:10px;
+}
+
+#second{
+    display: flex;
+}
+
+#gear{
+    width: 12px;
+    height: 12px;
+    padding-left: 10px;
+    padding-top: 12px;
+}
+
+a{
+    color: rgb(17, 153, 158);
+}
+
+li{
+    list-style: none;
+    display: inline;
+    padding-left: 10px;
+}
+
+
+
+#main{
+    border-top: rgb(17, 153, 158) thick;
+    border-top-width: 60pt;
+    border-left: gray;
+    border-right: grey;
+    border-bottom:grey;
+    border-style:solid;
+    width: 500px;
+    height: 200px;
+    margin: 10%;
+    margin-left: 30%;
+}
