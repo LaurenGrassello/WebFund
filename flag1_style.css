@@ -1,28 +1,25 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    display: flex;
-    align-items:flex-start;
-}
-
-#one{
-    width: 300px;
-    height: 500px;
-    background-color: navy;
+#flagbackground{
+    background-color: rgb(59, 59, 216);
+    height: 400px;
+    width: 700px;
+    margin-right: 2%;
+    margin-bottom: 2%;
 
 }
 
-#two{
-    width: 300px;
-    height: 500px;
-    background-color: white;
+
+#cross{
+    background-color: yellow;
+    height: 50px;
+    width: 705px;
+    margin-inline-end: 0%;
 
 
 }
 
-#three{
-    width: 300px;
-    height: 500px;
-    background-color: red;
-
+#cross2{
+    background-color: yellow;
+    height: 350px;
+    width: 50px;
+    margin-left: 200px;
 }
