@@ -1,5 +1,6 @@
 body {
     background-color: rgb(203, 214, 224);
+    display: flex;
 }
 
 #header{
@@ -30,10 +31,6 @@ img{
     margin: 20px;
 }
 
-#riveter{
-    margin-right: 500px;
-
-}
 
 #block3{
     background-color: ivory;
