@@ -1,0 +1,343 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: cursive;
+
+}
+
+.nav{
+    background-color: black;
+    display: flex;
+
+}
+
+.nav-title{
+    color: white;
+    display: inline;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+.nav-links{
+    display: inline-flex;
+}
+
+li{
+    color: white;
+    list-style: none;
+    margin-top: 35px;
+    margin-left: 100px;
+}
+
+.btn{
+    background-color: rgb(17, 153, 158);
+    color: white;
+    padding: 5px 17px;
+    box-shadow: 1px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+
+/* end of nav bar */
+
+/* start of user info */
+
+#main{
+    border-top: rgb(17, 153, 158) thick;
+    border-top-width: 60pt;
+    border-left: lightgray;
+    border-right: lightgrey;
+    border-bottom:lightgrey;
+    border-style:solid;
+    width: 400px;
+    height: 200px;
+    margin-left: 23%;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#userImage{
+    width: 85px;
+    height: 90px;
+    position: absolute;
+    top: 120px;
+    padding-left: 10px;
+}
+
+
+#userName{
+    padding-top: 25px;
+    padding-left: 10px;
+}
+
+#map{
+    width:10px;
+    height:17px;
+    padding: 10px;
+}
+
+#p1{
+    padding-top:6px;
+    display: inline;
+}
+
+#p2{
+    padding-left:10px;
+    display: flex;
+}
+
+#second{
+    display: flex;
+}
+
+#gear{
+    width: 12px;
+    height: 12px;
+    padding-left: 10px;
+    padding-top: 12px;
+}
+
+#a2{
+    color: rgb(17, 153, 158);
+}
+
+#list2{
+    list-style: none;
+    display: inline;
+    padding-left: 0px;
+    color: black;
+    margin: 10px;
+}
+
+#a2{
+    display: inline;
+    text-decoration: underline;
+}
+
+/* end of user info */
+
+/* start of connection request */
+
+#userRequestTop{
+    background-color: black;
+    border-style:solid;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: 45%;
+    margin-top: -283px;
+}
+
+#theNumber2{
+    border-style: solid;
+    border-color: lightgrey;
+    background-color: lightgrey;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    margin-top: 10px;
+    margin-right: 3px;
+    justify-content: center;
+}
+
+#connection{
+    color: white;
+    margin-top: 10px;
+}
+
+/* second portion of user connection */
+
+
+#userRequestBottom{
+    border-style:solid;
+    border-top: none;
+    border-color: lightgray;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    margin-left: 45%;
+
+}
+
+#davidPic, #freddyPic, #davidButton1, #davidButton2, #freddyButton1, #freddyButton2{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+#davidButton1, #davidButton2, #freddyButton1, #freddyButton2{
+    display: flex;
+    justify-content: space-between;
+}
+
+#connectionList{
+    display: flex;
+}
+
+#connectionItem1{
+    color: black;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#connectionItem2{
+    color: black;
+    display: flex;
+    margin-left: -179px;
+    padding-top: 20px;
+}
+
+#mercury, #gilmore{
+    padding-top: 7px;
+}
+
+/* end of user connection */
+
+
+/* start of your connections */
+
+#yourConnectionsTop{
+    background-color: black;
+    border-style:solid;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: 45%;
+    margin-top: 20px;
+
+}
+
+#yourCon{
+    color: white;
+    justify-content: center;
+    margin-top: 12px;;
+}
+
+#theNumber500{
+    border-style: solid;
+    border-color: lightgrey;
+    background-color: lightgrey;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    margin-top: 10px;
+    margin-right: 3px;
+    justify-content: center;
+}
+
+/* send part of your connections */
+
+#yourConnectionsBottom{
+    border-style:solid;
+    border-top: none;
+    border-color: lightgray;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 45%;
+    position: relative;
+}
+
+
+#conNames1, #conNames2, #conNames3, #conNames4{
+    color: black;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+    margin-top: -20px;
+}
+
+
+#conImage{
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    margin-top: 10px;
+    flex-direction: column;
+    display: flex;
+}
+
+/* part three of your connection */
+
+#yourConLast{
+    border-color: lightgray;
+    border-style: solid;
+    border-top: none;
+    height: 50px;
+    width: 300px;
+    margin-left: 45%;
+    display: flex;
+    
+}
+
+#viewMore{
+    color:rgb(17, 153, 158);
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 10px;
+    padding-left: 5px;
+    text-decoration: underline;
+}
+
+
+/* end of your connections */
+
+/* start of education */
+
+#education{
+    background-color: black;
+    border-style:solid;
+    width: 400px;
+    height: 50px;
+    display: flex;
+    margin-top: -200px;
+    margin-left: 440px;
+}
+
+#edu{
+    color: white;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+#edu2{
+    border-left: lightgray;
+    border-right: lightgrey;
+    border-bottom:lightgrey;
+    border-top:none;
+    border-style:solid;
+    height: 120px;
+    width: 400px;
+    margin-left: 440px;
+
+}
+
+
+#cDojo{
+    /* display: flex; */
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+#date{
+    color:lightgray
+}
+
+#stacks{
+    padding-top: 5px;
+}
