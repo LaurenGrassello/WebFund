@@ -5,38 +5,41 @@
 
 }
 
+
 .nav{
     background-color: black;
     display: flex;
+    width: 100%;
 
 }
 
-.nav-title{
+.nav h1{
     color: white;
     display: inline;
     margin-left: 400px;
     margin-top: 20px;
 }
 
-.nav-links{
+.nav ul{
     display: inline-flex;
 }
 
 li{
     color: white;
     list-style: none;
-    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
     margin-left: 100px;
 }
 
-.btn{
+button.btn{
     background-color: rgb(17, 153, 158);
     color: white;
     padding: 5px 17px;
     box-shadow: 1px;
     margin-left: 100px;
     margin-bottom: 5px;
-
 }
 
 a{
@@ -60,66 +63,67 @@ a{
     height: 200px;
     margin-left: 23%;
     margin-top: 20px;
-    display: inline-block;
 }
 
 #userImage{
     width: 85px;
     height: 90px;
-    position: absolute;
     top: 120px;
     padding-left: 10px;
+    position: absolute;
+    display: flex;
 }
 
 
-#userName{
-    padding-top: 25px;
-    padding-left: 10px;
+#main h1{
+margin-top: 30px;
+padding-left: 10px;
 }
 
 #map{
     width:10px;
     height:17px;
-    padding: 10px;
 }
 
 #p1{
-    padding-top:6px;
-    display: inline;
+    padding-left: 10px;
 }
 
 #p2{
-    padding-left:10px;
-    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
-#second{
-    display: flex;
+
+#main li{
+    color: black;
+    margin: 0;
+    display: inline;
+    padding-left: 10px;
+    
+}
+
+#main ul{
+    padding-top: 10px;
 }
 
 #gear{
-    width: 12px;
-    height: 12px;
+    width: 15px;
+    height: 15px;
     padding-left: 10px;
-    padding-top: 12px;
+    padding-top: 5px;
+    display: flex;
 }
+
 
 #a2{
     color: rgb(17, 153, 158);
-}
-
-#list2{
-    list-style: none;
-    display: inline;
-    padding-left: 0px;
-    color: black;
-    margin: 10px;
-}
-
-#a2{
-    display: inline;
+    gap: 10px;
+    padding-top: 10px;
     text-decoration: underline;
+    
 }
+
 
 /* end of user info */
 
@@ -128,28 +132,30 @@ a{
 #userRequestTop{
     background-color: black;
     border-style:solid;
-    width: 300px;
-    height: 50px;
     display: flex;
     justify-content: center;
+    flex: wrap;
+    width: 300px;
+    height: 50px;
+    flex: 1;
     margin-left: 45%;
     margin-top: -283px;
 }
 
-#theNumber2{
+#userRequestTop p{
     border-style: solid;
     border-color: lightgrey;
     background-color: lightgrey;
+    justify-content: center;
+    display: flex;
     border-radius: 50%;
     height: 20px;
     width: 20px;
-    display: flex;
     margin-top: 10px;
     margin-right: 3px;
-    justify-content: center;
 }
 
-#connection{
+#userRequestTop h3{
     color: white;
     margin-top: 10px;
 }
@@ -160,45 +166,47 @@ a{
 #userRequestBottom{
     border-style:solid;
     border-top: none;
+    display: flex;
+    flex: wrap;
     border-color: lightgray;
     width: 300px;
     height: 100px;
-    display: flex;
+    flex: 1;
     margin-left: 45%;
 
 }
 
-#davidPic, #freddyPic, #davidButton1, #davidButton2, #freddyButton1, #freddyButton2{
-    width: 20px;
-    height: 20px;
-    padding: 10px;
+#davidPic, #freddyPic{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
 }
 
 #davidButton1, #davidButton2, #freddyButton1, #freddyButton2{
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
     display: flex;
-    justify-content: space-between;
+    
 }
 
-#connectionList{
-    display: flex;
+#userRequestBottom ul{
+    display: inline;
+    
 }
 
-#connectionItem1{
+#userRequestBottom li{
     color: black;
-    display: flex;
+    flex-direction: row;
     margin-left: 20px;
-    margin-top: 10px;
-}
-
-#connectionItem2{
-    color: black;
-    display: flex;
-    margin-left: -179px;
-    padding-top: 20px;
+    margin-top: 5px;
 }
 
 #mercury, #gilmore{
-    padding-top: 7px;
+    padding-top: 10px;
+    font-size: 12pt;
 }
 
 /* end of user connection */
@@ -212,63 +220,58 @@ a{
     width: 300px;
     height: 50px;
     display: flex;
+    flex: wrap;
+    flex: 2; 
     justify-content: center;
     margin-left: 45%;
     margin-top: 20px;
 
 }
 
-#yourCon{
+#yourConnectionsTop h3{
     color: white;
     justify-content: center;
     margin-top: 12px;;
 }
 
-#theNumber500{
+#yourConnectionsTop p{
     border-style: solid;
     border-color: lightgrey;
     background-color: lightgrey;
+    display: flex;
+    justify-content: center;
     border-radius: 50%;
     height: 35px;
     width: 35px;
-    display: flex;
     margin-top: 10px;
     margin-right: 3px;
-    justify-content: center;
 }
 
-/* send part of your connections */
+/* end part of your connections */
 
 #yourConnectionsBottom{
     border-style:solid;
     border-top: none;
     border-color: lightgray;
-    width: 300px;
-    height: 200px;
     display: flex;
     flex-direction: column;
+    width: 300px;
+    height: 200px;
     margin-left: 45%;
-    position: relative;
 }
 
-
-#conNames1, #conNames2, #conNames3, #conNames4{
+#yourConnectionsBottom p{
     color: black;
     font-size: large;
     display: flex;
-    flex-direction: column;
-    margin-left: 45px;
-    margin-top: -20px;
+
 }
 
 
 #conImage{
-    width: 25px;
-    height: 25px;
-    margin: 5px;
-    margin-top: 10px;
-    flex-direction: column;
-    display: flex;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
 }
 
 /* part three of your connection */
@@ -277,10 +280,12 @@ a{
     border-color: lightgray;
     border-style: solid;
     border-top: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
     height: 50px;
     width: 300px;
     margin-left: 45%;
-    display: flex;
     
 }
 
@@ -288,9 +293,9 @@ a{
     color:rgb(17, 153, 158);
     display: flex;
     justify-content: flex-start;
+    text-decoration: underline;
     padding-top: 10px;
     padding-left: 5px;
-    text-decoration: underline;
 }
 
 
@@ -301,11 +306,12 @@ a{
 #education{
     background-color: black;
     border-style:solid;
+    display: flex;
+    flex: wrap;
     width: 400px;
     height: 50px;
-    display: flex;
     margin-top: -200px;
-    margin-left: 440px;
+    margin-left: 440px; 
 }
 
 #edu{
@@ -320,6 +326,8 @@ a{
     border-bottom:lightgrey;
     border-top:none;
     border-style:solid;
+    display: flex;
+    flex-wrap: wrap;
     height: 120px;
     width: 400px;
     margin-left: 440px;
@@ -327,17 +335,19 @@ a{
 }
 
 
-#cDojo{
-    /* display: flex; */
+#edu2 h2{
     font-size: large;
     padding-top: 10px;
     padding-bottom: 5px;
+    padding-left: 10px;
 }
 
 #date{
-    color:lightgray
+    color:lightgray;
+    padding-left: 10px;
 }
 
 #stacks{
     padding-top: 5px;
+    padding-left: 10px;
 }
