@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="buttonClicker_style.css">
+    <title>Button Clicker</title>
+</head>
+<body>
+    <div id="container">
+
+        <div id="navBar">
+
+            <h1>Dojonary</h1>
+            <input type="text" placeholder="Search">
+            <button onclick="logOut(this)">Login</button>
+
+        </div>
+
+<!-- end of nav bar -->
+
+
+        <div id="child1">
+
+            <div id="ninja1">
+                <h1>ninja</h1>
+                <h2>noun</h2>
+
+                <h3>plural: <span id="pluralSpan">ninjas</span> 
+                <br>
+                <span id="defSpan">A practitioner skilled in the <span id="japanese">Janpanese</span> are of <span id="ninjutsu">ninjutsu</span> </span>
+                </h3>
+
+                <button onclick="alert ('ninja was liked')">13 likes</button>
+
+            </div>
+
+            <div id="ninja2">
+
+                <h1>ninja</h1>
+                <h2>noun</h2>
+
+                <h3>plural: <span id="pluralSpan">ninjas</span> 
+                <br>
+                <span id="defSpan2">A <span id="programmer">programmer</span> who breaks down problems with <span id="zen">zen</span>-like focus </span>
+                </h3>
+
+                <button onclick="alert ('ninja was liked')">37 likes</button>
+
+            </div>
+
+        </div>
+
+
+        <div id="child2">
+
+            <div id="addDef">
+
+                <p>Dojonary is defined by YOU!</p>
+                <button onclick="hide(this)">Add definition</button>
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="buttonClicker.js"></script>
+</body>
+</html>

@@ -1,0 +1,200 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+}
+
+#navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 75px;
+    background-color: rgb(82, 138, 190);
+}
+
+#navBar h1 {
+    color: white;
+    padding-top: 15px;
+}
+
+#navBar input {
+    background-color: white;
+    color: darkgreen;
+    height: 35px;
+    width: 300px;
+    margin-top: 15px;
+}
+
+#navBar button {
+    height: 35px;
+    width: 100px;
+    margin-top: 15px;
+    font-size: 15pt;
+    box-shadow: black 5px 5px;
+    color: white;
+    background-color: darkgoldenrod;
+}
+
+/* end of navbar */
+
+#child1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#ninja1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    max-width: 350px;
+    margin-left: 30%;
+    border-width: initial;
+    border-style: solid;
+    border-image: initial;
+    border-color: rgb(82, 138, 190);
+    overflow: auto;
+}
+
+#ninja1 h1 {
+    display: flex;
+    padding: 10px;
+}
+
+#ninja1 h2 {
+    display: flex;
+    font-size: large;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+#ninja1 h3 {
+    font-size: small;
+    display: flex;
+    padding-left: 10px;
+    margin-top: 5px;
+    gap: 5px;
+}
+
+#pluralSpan {
+    font-style: italic;
+    display: flex;
+}
+
+#defSpan {
+    font-size: 12pt;
+    position: relative;
+    bottom: 30px;
+    padding-left: 10px;
+}
+
+#japanese {
+    color: darkgoldenrod;
+    text-decoration: underline;
+}
+
+#ninjutsu {
+    color: darkgoldenrod;
+    text-decoration: underline;
+}
+
+#ninja1 button {
+    height: 30px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    box-shadow: black 3px 3px;
+    background-color: darkgoldenrod;
+    font-size: medium;
+}
+
+#ninja2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    max-width: 350px;
+    margin-left: 30%;
+    border-width: initial;
+    border-style: solid;
+    border-image: initial;
+    border-color: rgb(82, 138, 190);
+    overflow: auto;
+}
+
+#ninja2 h1 {
+    display: flex;
+    padding: 10px;
+}
+
+#ninja2 h2 {
+    display: flex;
+    font-size: large;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+#ninja2 h3 {
+    font-size: small;
+    display: flex;
+    padding-left: 10px;
+    margin-top: 5px;
+    gap: 5px;
+}
+
+#ninja2 button {
+    height: 30px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    box-shadow: black 3px 3px;
+    background-color: darkgoldenrod;
+    font-size: medium;
+}
+
+#child2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50%;
+}
+
+#addDef {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 365px;
+    max-width: 400px;
+    border-width: initial;
+    border-style: solid;
+    border-image: initial;
+    border-color: rgb(82, 138, 190);
+    overflow: auto;
+}
+
+#addDef p {
+    display: flex;
+    width: 200px;
+    overflow-wrap: break-word;
+    font-size: 20pt;
+    padding: 10px;
+}
+
+#addDef button {
+    width: 55%;
+    box-shadow: black 3px 3px;
+    background-color: darkgoldenrod;
+    font-size: medium;
+    display: flex;
+    margin: 10px 10px 10px 50px;
+    padding: 3px;
+}
