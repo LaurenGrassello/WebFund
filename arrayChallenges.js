@@ -7,7 +7,7 @@ function alwaysHungry(arr) {
         if (arr[i] == "food") {
             console.log("yummy");
         }
-        if (arr[i] != "food") {
+        if (arr[i] !== "food") {
             return "I'm hungry";
         }
     }
