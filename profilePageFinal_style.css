@@ -1,0 +1,347 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: cursive;
+
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.nav h1{
+    color: white;
+    display: inline;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+.nav ul{
+    display: inline-flex;
+}
+
+li{
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+button.btn{
+    background-color: rgb(17, 153, 158);
+    color: white;
+    padding: 5px 17px;
+    box-shadow: 1px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+
+/* end of nav bar */
+
+/* start of user info */
+
+
+#child1{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#main{
+    border-top: rgb(17, 153, 158) thick;
+    border-top-width: 60pt;
+    border-left: lightgray;
+    border-right: lightgrey;
+    border-bottom:lightgrey;
+    border-style:solid;
+    margin-top: 20px;
+    margin-left: 23%;
+    margin-right: 12px;
+    display: inline;
+    flex-direction: column;
+    width: 400px;
+
+}
+
+#userImage{
+    width: 85px;
+    height: 90px;
+    top: 120px;
+    padding-left: 10px;
+    position: absolute;
+    display: flex;
+}
+
+
+#main h1{
+margin-top: 30px;
+padding-left: 10px;
+}
+
+#map{
+    width:10px;
+    height:17px;
+}
+
+#p1{
+    padding-left: 10px;
+}
+
+#p2{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+#main li{
+    color: black;
+    margin: 0;
+    display: inline;
+    padding-left: 10px;
+    
+}
+
+#main ul{
+    padding-top: 10px;
+}
+
+#gear{
+    width: 15px;
+    height: 15px;
+    padding-left: 10px;
+    padding-top: 5px;
+    display: flex;
+}
+
+
+#a2{
+    color: rgb(17, 153, 158);
+    gap: 10px;
+    padding-top: 10px;
+    text-decoration: underline;
+    
+}
+
+
+/* end of user info */
+
+/* start of connection request */
+
+#userRequest{
+    border-style:solid;
+    border-color: lightgray;
+    border-top: none;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 2;
+    margin-top: 20px;
+    margin-right: 39%;
+    height:200px;
+    
+
+}
+#theNumber2{
+    border-style: solid;
+    border-color: lightgrey;
+    background-color: lightgrey;
+    color: black;
+    justify-content: center;
+    display: flex;
+    margin-left: 10px;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    font-size: small;
+}
+
+#userRequest h3{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+
+#davidPic, #freddyPic{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#davidButton1, #davidButton2, #freddyButton1, #freddyButton2{
+    width: 25px;
+    height: 25px;
+    padding-top: 10px;
+    
+}
+
+    
+
+#userRequest li{
+    color: black;
+    flex-direction: row;
+    margin-top: 5px;
+    margin: 0;
+}
+
+#mercury, #gilmore{
+    padding-top: 5px;
+    padding-right: 10px;
+    font-size: 15pt;
+}
+
+/* end of connection requests */
+
+
+#child2{
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    margin: 0;
+}
+
+
+/* start of education */
+
+#education {
+    border-left: lightgray;
+    border-right: lightgrey;
+    border-bottom:lightgrey;
+    border-style: solid;
+    height: max-content;
+    margin-left: 23%;
+}
+
+#education h2{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+#education h3{
+    display: flex;
+    flex-direction: row;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#date{
+    color:lightgray;
+    padding-left: 10px;
+}
+
+#stacks{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+
+/* end education */
+
+/* start of your connections */
+
+#yourConnections{
+    border-style:solid;
+    border-top: none;
+    border-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    height: 200px;
+    margin-left: 8px;
+    height: max-content;
+    position: relative;
+    bottom: 75px;
+}
+
+#yourConnections h3{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+
+}
+
+
+
+#connectionNum{
+    border-style: solid;
+    border-color: lightgrey;
+    background-color: lightgrey;
+    color: black;
+    justify-content: center;
+    display: flex;
+    margin-left: 10px;
+    border-radius: 50%;
+    height: 35px;
+    width: 50px;
+}
+
+
+
+#connectionName{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    font-size: larger;
+    padding-top: 10px;
+    margin: 0;
+
+}
+
+
+#conImage{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+#yourConnections a{
+    border-top: lightgray solid;
+    height: 50px;
+    width: 300px;
+    
+}
+
+#viewMore{
+    color:rgb(17, 153, 158);
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: underline;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+
+/* end of your connections */
+
