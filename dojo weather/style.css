@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav{
+    background-color: #9fc5f8;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    padding: 30px;
+    font-size: 15pt;
+}
+
+h1{
+    font-size: 22pt;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid;
+    border-color: black;
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+#tempSpan{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+select{
+    margin-left: 15px;
+}
+
+#weatherReport{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#report{
+    border: 1px solid white;
+    border-collapse: collapse; 
+    background-color: #eeeeee;
+    margin: 45px;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    background-color: #eeeeee;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+#weatherSum{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    padding-bottom: 20px;
+    font-size: 14pt;
+
+}
+
+#tempNum{
+    display: flex;
+}
+
+#hot{
+    color: red;
+    margin-bottom: 15px;
+    font-size: 14pt;
+    padding-left: 60px;
+}
+
+#cold{
+    color: blue;
+    margin-bottom: 15px;
+    font-size: 14pt;
+    padding-left: 70px;
+}
+
+#acceptCookies{
+    border-style: solid;
+    border-color: black;
+    background-color: #eeeeee;
+    width: 600px;
+    height:fit-content;
+    position: fixed;
+    width: 900px;
+    margin-left: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+
+h2{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.cookieImg{
+    width: 55px;
+    height: 55px;
+    padding-bottom: 20px;
+}
+
+.cookieInfo{
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+
+button{
+    background-color: #9fc5f8;
+    box-shadow: 5px 5px black;
+    width: 75px;
+    height: 30px;
+    margin-left: 275px;
+}

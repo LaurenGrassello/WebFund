@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dojo Weather</title>
+</head>
+
+<body>
+
+    <div id="container">
+
+
+        <nav>
+            <h1>DojoWeather</h1>
+            <ul>
+                <li onclick="alert('Loading Burbank weather report...')">Burbank</li>
+                <li onclick="alert('Loading Chicago weather report...')">Chicago</li>
+                <li onclick="alert('Loading Dallas weather report...')">Dallas</li>
+            </ul>
+        </nav>
+
+
+        <div id="main">
+
+            <div id="header">
+                <p>
+                <h2>San Jose</h2> <span id="tempSpan">show temperature in
+                    <select name="tempSelect">
+                        <option value=”celsius”>°C</option>
+                        <option value=”fahrenheit”>°F</option>
+                    </select>
+                </span>
+
+
+                </p>
+            </div>
+
+            <div id="weatherReport">
+
+                <div id="report">
+                    <h3>Today</h3>
+                    <img src="./assets/some_rain.png" alt="image of rain cloud">
+                    <p id="weatherSum">some rain </p>
+                    <p id="tempNum">
+                        <span id="hot">°24 </span>
+                        <span id="cold">°18</span>
+                    </p>
+                </div>
+
+                <div id="report">
+                    <h3>Tomorrow</h3>
+                    <img src="./assets/some_sun.png" alt="image of sun">
+                    <p id="weatherSum">some sun </p>
+                    <p id="tempNum">
+                        <span id="hot">°27 </span>
+                        <span id="cold">°19</span>
+                    </p>
+
+                </div>
+
+                <div id="report">
+                    <h3>Friday</h3>
+                    <img src="./assets/some_clouds.png" alt="image of clouds">
+                    <p id="weatherSum">some clouds</p>
+                    <p id="tempNum">
+                        <span id="hot">°21 </span>
+                        <span id="cold">°16</span>
+                    </p>
+
+                </div>
+
+                <div id="report">
+                    <h3>Saturday</h3>
+                    <img src="./assets/some_sun.png" alt="image of sun">
+                    <p id="weatherSum">some sun </p>
+                    <p id="tempNum">
+                        <span id="hot">°26 </span>
+                        <span id="cold">°21</span>
+                    </p>
+                </div>
+
+            </div>
+
+            <div id="acceptCookies">
+
+                <img class="cookieImg" src="./assets/cookie.png" alt="image of cookie">
+
+                <div id="cookieMain">
+                    <h2>Stop! Cookie time!</h2>
+
+                    <p class="cookieInfo">
+                        We use cookies (sadly not the edible ones) to personalize content and ads,
+                        to provide social
+                        <br>
+
+                        media features and to analyze our traffic. <a href="http://#">Read more...</a>
+
+                        <button id="closeBtn" onclick="deleteCookie()">I Accept</button>
+                    </p>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
