@@ -32,7 +32,7 @@
 
             <div id="main">
                 <img id="userImage" src="./icons1/user-circle.png" alt="user image">
-                <h1>Jane Doe</h1>
+                <h1 id="user">Jane Doe</h1>
 
 
 
@@ -54,7 +54,7 @@
 
                     <img id="gear" src="./icons/gear.png" alt="gear">
 
-                    edit profile
+                    <button onclick="changeName()" id="editBtn"> edit profile</button>
                 </a>
 
 
@@ -71,27 +71,32 @@
                 </h3>
 
 
-                <ul>
-                    <li>
+                <ul >
+                    <li id="userList">
 
+                        
                         <img id="davidPic" src="./icons1/user-circle.png" alt="David's photo">
 
                         <p id="gilmore">David G.</p>
 
-                        <img id="davidButton1" src="./icons/accept-circle.png" alt="accept check mark">
+                        <button onclick="deleteList()" id="btn">
+                            <img id="davidButton1" src="./icons/accept-circle.png" alt="accept check mark">
+                        </button>
 
-                        <img id="davidButton2" src="./icons/close-circle.png" alt="close mark">
+                        <button onclick="deleteList()"  id="btn">
+                            <img id="davidButton2" src="./icons/close-circle.png" alt="close mark">
+                        </button>
                     </li>
 
-                    <li>
+                    <li id="userList2">
 
                         <img id="freddyPic" src="./icons1/user-circle.png" alt="Freddy's photo">
 
                         <p id="mercury">Freddy M.</p>
 
-                        <img id="freddyButton1" src="./icons/accept-circle.png" alt="accept check mark">
+                        <button onclick="deleteList2()"  id="btn"><img id="freddyButton1" src="./icons/accept-circle.png" alt="accept check mark"></button> 
 
-                        <img id="freddyButton2" src="./icons/close-circle.png" alt="close mark">
+                        <button onclick="deleteList2()"  id="btn"><img id="freddyButton2" src="./icons/close-circle.png" alt="close mark"></button> 
                     </li>
                 </ul>
 
@@ -104,7 +109,7 @@
 
     <!-- end of connection requests -->
 
-    
+
     <div id="child2">
 
         <!-- start of education -->
@@ -122,7 +127,7 @@
 
 
         </div>
-        
+
         <!-- start of your connections -->
 
 
@@ -170,7 +175,7 @@
 
 
 
-
+    <script src="script.js"></script>
 </body>
 
 </html>

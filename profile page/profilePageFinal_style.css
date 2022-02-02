@@ -126,17 +126,18 @@ padding-left: 10px;
     width: 15px;
     height: 15px;
     padding-left: 10px;
-    padding-top: 5px;
+    padding-top: 15px;
     display: flex;
 }
 
 
-#a2{
+#main button{
     color: rgb(17, 153, 158);
-    gap: 10px;
-    padding-top: 10px;
+    margin: 10px;
+    background-color: transparent;
+    border: none;
     text-decoration: underline;
-    
+    font-size: large;
 }
 
 
@@ -210,6 +211,11 @@ padding-left: 10px;
     padding-top: 5px;
     padding-right: 10px;
     font-size: 15pt;
+}
+
+#btn{
+    border: none;
+    background-color: transparent;
 }
 
 /* end of connection requests */
