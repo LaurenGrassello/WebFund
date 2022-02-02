@@ -9,9 +9,9 @@
     margin: 0 auto;
 }
 
-section{
+#sec1{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
 
 nav{
@@ -30,13 +30,41 @@ h1{
 img{
     width: 100px;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-left: 45px;
+    margin-top: 15px;
 }
 
 #mainUser{
     border-style: solid;
     border-color: black;
+    width: 200px;
     display: flex;
     flex-direction: column;
+    height: fit-content;
+    align-content: center;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}   
+
+#mainP{
+    color: slateblue;
+    text-decoration: underline;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+
+#groupUser{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 #userFriends{
